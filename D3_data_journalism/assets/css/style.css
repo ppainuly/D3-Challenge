@@ -7,11 +7,14 @@
 html {
   position: relative;
   min-height: 100%;
+ 
 }
 
 body {
   /* Padding bottom by footer height */
   padding-bottom: 80px;
+
+  background: linear-gradient(whitesmoke, #2f49706c, transparent), url("https://images.unsplash.com/photo-1528413538163-0e0d91129480?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80") no-repeat center;
 }
 
 #footer {
@@ -23,6 +26,12 @@ body {
   padding-bottom: 40px;
   text-align: center;
   background-color: #f5f5f5;
+}
+.container{
+
+  background-color: whitesmoke;
+  opacity: 0.8;
+  font-family: Geneva;
 }
 
 #footer p {
